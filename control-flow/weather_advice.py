@@ -1,9 +1,13 @@
-weather = input("What is the weather like?(Sunny, Rainy, Cold)").lower()
+# Prompt the user to input the current weather condition
+weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
+
+# Provide clothing recommendations based on the user's input
 if weather == "sunny":
-    print("Wear a t-shirt and sunglasses")
+    print("Wear a t-shirt and sunglasses.")
 elif weather == "rainy":
-    print("Don't forget your umbrella and raincoat")
+    print("Don't forget your umbrella and a raincoat.")
 elif weather == "cold":
-    print("Make sure to wear a warm coat and scarf")
+    print("Make sure to wear a warm coat and a scarf.")
 else:
-    print("I don't have any recommendation for this weather")
+    # Handle unexpected input
+    print("Sorry, I don't have recommendations for this weather.")
