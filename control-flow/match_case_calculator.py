@@ -17,3 +17,5 @@ match operation:
             print(num1 / num2)
     case _:
         print("Invalid operation")
+print("The result is: ", num1, operation, num2)
+
