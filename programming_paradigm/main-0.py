@@ -21,8 +21,8 @@ def main():
         else:
             print(f"Withdrew: ${result}")
     elif command == "display":
-        balance = account.display_balance()
-        print(f"Current balance: ${balance}")
+        result = account.display_balance()
+        print(result)
     else:
         print("Invalid command.")
 
